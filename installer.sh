@@ -6,9 +6,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-
 sudo apt-get update
-
 
 sudo apt-get install curl golang chromium nmap
 
